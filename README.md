@@ -4,7 +4,7 @@ The Python 3.6 code in this folder implements the clustering metaheuristic for O
 The clustering meta-heuristic tackles an OP by grouping the nodes into clusters, solving an OP inside each cluster, and connect the solutions of the clusters.
 
 
-Prerequisites:
+**Prerequisites:**
 
 Inside the 'Clustering-Meta-Heuristic-for-the-Orienteering-Problem' directory, install and configure 'concorde' (https://github.com/matthelb/concorde) and 'compass' (https://github.com/bcamath-ds/compass). 
 Concorde is. well-know solver for TSP, while compass installs the EA4OP evolutionary heuristic described in the paper: 
@@ -13,7 +13,7 @@ In addition, if you want to use Gurobi instead of EA4OP as a base solver, you sh
 
 
 
-How to Use:
+**How to Use:**
 
 ./solve_CMH.py Benchmark Gen N_max Heuristic
 
