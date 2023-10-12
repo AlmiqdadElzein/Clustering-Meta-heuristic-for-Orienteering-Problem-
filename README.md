@@ -14,9 +14,9 @@ In addition, if you want to use Gurobi instead of EA4OP as a base solver, you sh
 
 
 **How to Use:**
-
+'''
 ./solve_CMH.py Benchmark Gen N_max Heuristic
-
+'''
 
 Benchmark: One of the files in the 'benchmarks' directory. This parameter should be used without the '.txt' extension (for example, EIL101).
 
